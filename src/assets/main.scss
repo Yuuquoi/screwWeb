@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    border: none;
+    font-family: "Quicksand", "Noto Sans TC", sans-serif;
+    font-size: 1.5vw;
+    color: #5E5E5E;
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+// variable
+:root{
+    // main color
+    --red: #EE6E75;
+    --redLight: #ffb1b3;
+    --green: #72C0AC;
+    --greenLight: #c1e9de;
+    --blue: #308FD1;
+    --blueLight: #abd2ee;
+    --yellow: #FFC35D;
+    --yellowLight: #ffe1ad;
+
+    // header icon note
+    --home: '首頁';
+    --statusMachine: '機台詳細';
+    --statusOrder: '訂單詳細';
+    --login: '登入';
+    --memberMachine: '機台管理';
+    --memberOrder: '訂單管理';
+
+}
